@@ -53,7 +53,7 @@ unittest(test_constants)
 
 unittest(test_allOff)
 {
-  ADG725 ADG(10, 11, 12);
+  ADG731 ADG(10, 11, 12);
 
   ADG.setChannel(13);
   ADG.allOff();
@@ -63,7 +63,7 @@ unittest(test_allOff)
 
 unittest(test_channel)
 {
-  ADG725 ADG(10, 11, 12);
+  ADG731 ADG(10, 11, 12);
 
   for (int ch = 0; ch < 16; ch++)
   {
