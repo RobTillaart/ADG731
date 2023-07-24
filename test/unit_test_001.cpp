@@ -41,7 +41,7 @@ unittest(test_constructor)
   ADG731 ADG(10, 11, 12);
 
   assertEqual(32, ADG.channelCount());
-  assertEqual(ADG725_ALLOFF, ADG.getChannel());
+  assertEqual(ADG731_ALLOFF, ADG.getChannel());
 }
 
 
@@ -57,7 +57,7 @@ unittest(test_allOff)
 
   ADG.setChannel(13);
   ADG.allOff();
-  assertEqual(ADG725_ALLOFF, ADG.getChannel());
+  assertEqual(ADG731_ALLOFF, ADG.getChannel());
 }
 
 
