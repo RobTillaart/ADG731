@@ -31,9 +31,6 @@ Not tests with hardware have been done yet, so use with care.
 Feedback welcome!
 
 
-TODO insert picture.
-
-
 #### Related
 
 - https://github.com/RobTillaart/HC4051 (1x8 mux)
@@ -41,7 +38,9 @@ TODO insert picture.
 - https://github.com/RobTillaart/HC4053 (3x2 mux)
 - https://github.com/RobTillaart/HC4067 (1x16 mux)
 - https://github.com/RobTillaart/ADG725 (2x16 mux)
+- https://github.com/RobTillaart/ADG726 (2x16 mux)
 - https://github.com/RobTillaart/ADG731 (1x32 mux)
+- https://github.com/RobTillaart/ADG732 (1x32 mux)
 
 
 ## Interface
@@ -55,13 +54,14 @@ TODO insert picture.
 Valid values for channel are 0..31.
 - **uint8_t getChannel()** get last set channel == 0..31 or ADG731_ALLOFF.
 - **uint8_t channelCount()** returns 32 for ADG731.
-
+- **void allOff()** sets all channels to OFF, none selected.
 
 ## Future
 
 #### Must
 
 - improve documentation
+  - insert schematic
 - test with hardware
 
 #### Should
