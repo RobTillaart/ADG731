@@ -64,7 +64,6 @@ Valid values for channel are 0..31.
 #### Must
 
 - improve documentation
-  - insert schematic
 - test with hardware
 
 #### Should
