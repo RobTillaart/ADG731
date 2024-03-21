@@ -2,7 +2,7 @@
 //    FILE: ADG731_performance.ino
 //  AUTHOR: Rob Tillaart
 // PURPOSE: measure performance
-//     URL: https://github.com/RobTillaart/ADG725
+//     URL: https://github.com/RobTillaart/ADG731
 
 
 #include "ADG731.h"
